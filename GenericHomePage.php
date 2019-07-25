@@ -39,6 +39,15 @@ class GenericHomePage implements TSDefinition
         echo '</footer>';
         echo '</html>';
     }
+    
+    function getInternalFileType()
+    {
+        if (getParentFile() == "System") {
+        return "System";
+        } else {
+        return "Page";
+        }
+    }
 
     public function GetPreferedName()
     {
