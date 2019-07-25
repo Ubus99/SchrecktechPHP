@@ -30,11 +30,11 @@ class GenericHomePage implements TSDefinition
         echo '<p>';
         echo $Description;
         echo '</p>';
-        echo '<iframe src="https://discordapp.com/widget?id=471400847847325717","width=500px height=400px allowtransparency= "true" frameborder="0"></iframe >';
+        echo '<iframe src="https://discordapp.com/widget?id=---------------","width=500px height=400px allowtransparency= "true" frameborder="0"></iframe >';
         echo '</body>';
         echo '<footer>';
         echo '<p>';
-        echo 'There are currently <span data-playercounter-ip="185.244.195.86">100</span> players playing on Schrecktech Official.';
+        echo 'There are currently <span data-playercounter-ip="-----------------">100</span> players playing on Schrecktech Official.';
         echo '</p>';
         echo '</footer>';
         echo '</html>';
