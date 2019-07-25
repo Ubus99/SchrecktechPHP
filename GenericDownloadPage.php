@@ -43,6 +43,15 @@ class GenericDownloadPage implements TSDefinition
         </footer>
         </html>';
     }
+    
+    function getInternalFileType()
+    {
+        if (getParentFile() == "System") {
+            return "System";
+        } else {
+            return "Page";
+        }
+    }
 
     public function GetPreferedName()
     {
