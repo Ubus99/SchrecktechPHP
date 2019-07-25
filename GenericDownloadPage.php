@@ -38,7 +38,7 @@ class GenericDownloadPage implements TSDefinition
         </body>
         <footer>
         <p>
-        There are currently <span data-playercounter-ip="185.244.195.86">100</span>players playing on Schrecktech Official.
+        There are currently <span data-playercounter-ip="------------------">100</span>players playing on Schrecktech Official.
         </p>
         </footer>
         </html>';
