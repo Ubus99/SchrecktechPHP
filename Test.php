@@ -1,4 +1,6 @@
 <?php
-include 'GenericHomePage.php';
-$This = new GenericHomePage();
-$This->GeneratePage("", "Schrecktech Official", "Home", 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam')?>
+include '../System/Page.php';
+
+echo '<link href="', Stylesheet, '" type="text/css" rel="stylesheet">';
+GetMenu();
+?>

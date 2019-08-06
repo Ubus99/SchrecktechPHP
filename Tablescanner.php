@@ -58,38 +58,6 @@ function showFileList($dirlist)
     }
 }
 
-/*
- * function linkFilelist($dirlist, $DisplayName) // filename defined as <Type.Name.php>
- * {
- * echo "<ul>\n";
- * $StackTrace = debug_backtrace();
- * var_dump($StackTrace);
- * echo $StackTrace[0]['file'];
- * foreach ($dirlist as $file) { // iterieren
- * $filename = $file['name'];
- * $isCurrent = false;
- * if (substr($filename, 2, 2) != "S." && substr($filename, strlen($filename) - 4, 4) == ".php") { // exclude system files
- * $temp = substr($filename, 4, strlen($filename) - 8); // get true file name
- * echo "<li";
- * if ($temp == substr($StackTrace[0]['file'], 1)) { // is menu item equal to page?
- * echo " class=current";
- * $isCurrent = true;
- * }
- * if (substr($filename, 2, 2) == "2." && $isCurrent) { // is menu item second level
- * echo ", sec";
- * } elseif (substr($filename, 2, 2) == "2." && ! $isCurrent) {
- * echo " class=sec";
- * }
- * echo ">";
- * echo "<a href= ";
- * echo $temp; // file name
- * echo ">";
- * echo $temp; // Displayed Name
- * echo "</a></li>\n";
- * }
- * }
- * }
- */
 function linkFileList($dirList) // todo
 {
     $StackTrace = debug_backtrace();

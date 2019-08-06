@@ -2,6 +2,7 @@
 
 interface TSDefinition
 {
+
     public function getInternalFileType();
 
     public function getPreferedName();
@@ -10,4 +11,5 @@ interface TSDefinition
 
     public function getParentFile();
 }
+
 ?>
